@@ -131,7 +131,8 @@ card-title {
 }
 
 .card-text{
-    text-align: center;
+    text-align: justify important!;
     color:#999;
     background-color: ghostwhite;
   }
+  
