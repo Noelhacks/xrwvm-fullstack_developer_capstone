@@ -73,7 +73,7 @@ app.get('/fetchDealers/:state', async (req, res) => {
   try {
     var state = req.params.state;
     state = 1;
-    const documents = await Dealerships.find({: state});
+    const documents = await Dealerships.find({state: req.params.state});
     res.json(documents);
   } catch (err) {
     res.status(500).json({ error: err});
