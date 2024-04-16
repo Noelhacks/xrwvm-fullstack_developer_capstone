@@ -71,8 +71,6 @@ app.get('/fetchDealers', async (req, res) => {
 app.get('/fetchDealers/:state', async (req, res) => {
 //Write your code here
   try {
-    var state = req.params.state;
-    state = 1;
     const documents = await Dealerships.find({state: req.params.state});
     res.json(documents);
   } catch (err) {
