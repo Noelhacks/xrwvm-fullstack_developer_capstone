@@ -70,7 +70,7 @@ def registration_request(request):
         username_exist = True
     except : # noqa
         # If not, simply log this is a new user
-        logger.debug(f"{} is new user".format(username))
+        logger.debug("{} is new user".format(username))
 
     # If it is a new user
     if not username_exist:
