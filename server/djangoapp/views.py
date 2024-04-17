@@ -68,7 +68,7 @@ def registration_request(request):
         # Check if user already exists
         User.objects.get(username=username)
         username_exist = True
-    except Exception:
+    except : # noqa
         # If not, simply log this is a new user
         logger.debug(f"{} is new user".format(username))
 
