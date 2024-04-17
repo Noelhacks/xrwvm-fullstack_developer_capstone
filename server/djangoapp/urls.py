@@ -10,7 +10,7 @@ urlpatterns = [
     # # path for registration
     path(
         route='register',
-        view=views.registration_request, 
+        view=views.registration_request,
         name='registration'),
     # path for login
     path(route='login', view=views.login_user, name='login'),
@@ -18,7 +18,7 @@ urlpatterns = [
     # path for dealer reviews view
     path(route='get_dealers', view=views.get_dealerships, name='get_dealers'),
     path(
-        route='get_dealers/<str:state>', 
+        route='get_dealers/<str:state>',
         view=views.get_dealerships,
         name='get_dealers_by_state'),
     path(
