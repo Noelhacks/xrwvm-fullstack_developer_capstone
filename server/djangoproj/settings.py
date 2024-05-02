@@ -28,16 +28,9 @@ SECRET_KEY =\
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost',
-'https://svetafl627-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/', # noqa
-'https://svetafl627-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai', # noqa
-'https://svetafl627-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai', # noqa
-'https://svetafl627-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai'] # noqa
-CSRF_TRUSTED_ORIGINS = ['https://svetafl627-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/', # noqa
-'https://svetafl627-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai', # noqa
-'https://svetafl627-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai', # noqa
-'https://svetafl627-8000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai', # noqa
-'https://svetafl627-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai'] # noqa
+ALLOWED_HOSTS = ['localhost', 'https://nyanoe772-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+CSRF_TRUSTED_ORIGINS = ['https://nyanoe772-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
