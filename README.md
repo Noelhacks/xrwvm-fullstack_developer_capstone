@@ -58,3 +58,5 @@ The "Dealerships Website" consumes the "Sentiment Analyzer Service" to analyze t
 ![image](https://github.com/diversv/xrwvm-fullstack_developer_capstone/assets/111029490/060b3e4f-2c6e-4a57-ba8a-d068855d547b)
 
 Also in the Cool branch has the optional assignments with code
+
+to use this branch, clone the repo, cd into the repo name then use git fetch --all
