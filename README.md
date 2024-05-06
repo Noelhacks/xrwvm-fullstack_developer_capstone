@@ -56,3 +56,5 @@ The "Sentiment Analyzer Service" is deployed on IBM Cloud Code Engine, it provid
 The "Dealerships Website" consumes the "Sentiment Analyzer Service" to analyze the sentiments of the reviews through the Django Proxy contained within the Django application.
 
 ![image](https://github.com/diversv/xrwvm-fullstack_developer_capstone/assets/111029490/060b3e4f-2c6e-4a57-ba8a-d068855d547b)
+
+Also in the Cool branch has the optional assignments with code
